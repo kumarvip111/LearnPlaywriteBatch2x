@@ -37,8 +37,7 @@ LearnPlaywriteBatch2x/
 ├── chapter_05_Literal/                        # Data Types & Literals
 │   ├── 22_Literal.js                         # String, boolean, number, null, undefined literals
 │   ├── 23_null_undefined.js                  # null vs undefined deep comparison
-│   └── 24_null.js                            # typeof quirks with null
-├── Root Files (Topic Deep Dives)
+│   ├── 24_null.js                            # typeof quirks with null
 │   ├── 25_Literal_All.js                     # Integer literals: decimal, hex, octal, exponential
 │   ├── 26_Literal_Number_all.js              # All number types: binary, float, BigInt, Infinity, NaN
 │   ├── 27_String.js                          # Single quotes vs double quotes
@@ -99,11 +98,6 @@ LearnPlaywriteBatch2x/
 | `22_Literal.js` | String, boolean, number, null, undefined literals with `typeof` |
 | `23_null_undefined.js` | Deep dive: `null` vs `undefined`, comparisons, `typeof` quirks, when to use each |
 | `24_null.js` | Practical `typeof` examples with `null`, `undefined`, `0`, and empty string `""` |
-
-### Root Files: Topic Deep Dives
-
-| File | Content |
-|------|---------|
 | `25_Literal_All.js` | Integer literals: decimal, hexadecimal (`0xFF`), octal (`0o77`), exponential (`1e6`) |
 | `26_Literal_Number_all.js` | All number types: binary (`0b`), float, BigInt, `Infinity`, `NaN`, numeric separators, `Number` properties |
 | `27_String.js` | Single quotes vs double quotes, `typeof` for characters and strings |
@@ -161,10 +155,10 @@ LearnPlaywriteBatch2x/
    node chapter_05_Literal/22_Literal.js
    node chapter_05_Literal/23_null_undefined.js
 
-   # Strings & Literals
-   node 27_String.js
-   node 28_Template_Literal.js
-   node 29_Backtick_single_double.js
+    # Strings & Literals
+    node chapter_05_Literal/27_String.js
+    node chapter_05_Literal/28_Template_Literal.js
+    node chapter_05_Literal/29_Backtick_single_double.js
    ```
 
 ## VS Code Shortcuts
