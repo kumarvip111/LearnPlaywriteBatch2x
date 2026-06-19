@@ -42,7 +42,26 @@ LearnPlaywriteBatch2x/
 │   ├── 26_Literal_Number_all.js              # All number types: binary, float, BigInt, Infinity, NaN
 │   ├── 27_String.js                          # Single quotes vs double quotes
 │   ├── 28_Template_Literal.js                # Backticks, variable interpolation, multi-line strings
-│   └── 29_Backtick_single_double.js          # Comparison of '', "", and `` with examples
+│       └── 29_Backtick_single_double.js          # Comparison of '', "", and `` with examples
+    ├── chapter_06_Operator/                        # Operators in JavaScript
+    │   ├── 30_Operator.js                          # Assignment operators
+    │   ├── 31_Arithmetic_OP.js                     # Arithmetic: +, -, *, /
+    │   ├── 32_Modulus_OP.js                        # Modulus (%) and even/odd check
+    │   ├── 33_Expo_OP.js                           # Exponentiation (**)
+    │   ├── 34_IQ.js                                # Compound assignment operators
+    │   ├── 35_Comparsion_OP.js                     # Comparison: >, <, >=, <=
+    │   ├── 36_Comparsion_Strict_loose.js           # Loose (==) vs strict (===) equality
+    │   ├── 37_IQ_Loose_Strict.js                   # Loose equality edge cases and transitivity
+    │   ├── 38_Confusing_Comparsion.js              # Deep dive into confusing comparisons
+    │   ├── 39_Logical_Op.js                        # Logical AND, OR, NOT
+    │   ├── 40_String_Con_Op.js                     # String concatenation with +=
+    │   ├── 41_Ternary_Op.js                        # Ternary operator and nested ternaries
+    │   ├── 42_Type_Op.js                           # typeof operator
+    │   ├── 43_Incre_Decre_Op.js                    # Pre/post increment and decrement
+    │   ├── 44_Null_Op.js                           # Nullish coalescing (??)
+    │   ├── 45_Post_Increment.js                    # Post-increment behavior
+    │   ├── 46_IQ_INCREMENT_D.js                    # Increment operator interview question
+    │   └── 47_Advance_ID_.js                       # Advanced increment/decrement expressions
 └── README.md
 ```
 
@@ -102,7 +121,30 @@ LearnPlaywriteBatch2x/
 | `26_Literal_Number_all.js` | All number types: binary (`0b`), float, BigInt, `Infinity`, `NaN`, numeric separators, `Number` properties |
 | `27_String.js` | Single quotes vs double quotes, `typeof` for characters and strings |
 | `28_Template_Literal.js` | Backtick strings with `${}` interpolation, multi-line, Playwright/QA real-world examples |
-| `29_Backtick_single_double.js` | Comparison table of `''`, `""`, and `\` `` `\` `` with feature matrix and real examples |
+| `29_Backtick_single_double.js` | Comparison table of `''`, `""`, and `` ` `` with feature matrix and real examples |
+
+### Chapter 06: Operators
+
+| File | Content |
+|------|---------|
+| `30_Operator.js` | Assignment operator `=` |
+| `31_Arithmetic_OP.js` | Arithmetic: `+`, `-`, `*`, `/` |
+| `32_Modulus_OP.js` | Modulus `%`, even/odd check |
+| `33_Expo_OP.js` | Exponentiation `**` |
+| `34_IQ.js` | Compound assignment: `+=`, `-=`, `*=`, `/=`, `%=` |
+| `35_Comparsion_OP.js` | Comparison operators: `>`, `<`, `>=`, `<=` |
+| `36_Comparsion_Strict_loose.js` | Loose `==` vs strict `===` equality |
+| `37_IQ_Loose_Strict.js` | Loose equality edge cases: `"" == "0"`, `null == undefined` |
+| `38_Confusing_Comparsion.js` | Deep dive into confusing comparisons, `NaN`, `[]`, `null` gotchas |
+| `39_Logical_Op.js` | Logical `&&`, `||`, `!` |
+| `40_String_Con_Op.js` | String concatenation with `+=` |
+| `41_Ternary_Op.js` | Ternary operator, nested ternaries, QA real-world examples |
+| `42_Type_Op.js` | `typeof` operator examples |
+| `43_Incre_Decre_Op.js` | Pre/post increment and decrement |
+| `44_Null_Op.js` | Nullish coalescing operator `??` |
+| `45_Post_Increment.js` | Post-increment behavior |
+| `46_IQ_INCREMENT_D.js` | Increment operator IQ question |
+| `47_Advance_ID_.js` | Advanced increment/decrement expressions |
 
 ## Naming Conventions Quick Reference
 
@@ -159,6 +201,11 @@ LearnPlaywriteBatch2x/
     node chapter_05_Literal/27_String.js
     node chapter_05_Literal/28_Template_Literal.js
     node chapter_05_Literal/29_Backtick_single_double.js
+
+    # Operators
+    node chapter_06_Operator/30_Operator.js
+    node chapter_06_Operator/38_Confusing_Comparsion.js
+    node chapter_06_Operator/41_Ternary_Op.js
    ```
 
 ## VS Code Shortcuts
