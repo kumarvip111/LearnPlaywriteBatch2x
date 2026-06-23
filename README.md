@@ -1,6 +1,6 @@
 # LearnPlaywrightBatch2x
 
-A beginner-friendly JavaScript learning repository covering core concepts, identifiers, literals, variables, functions, scope, hoisting, and developer tooling.
+A beginner-friendly JavaScript learning repository covering core concepts, identifiers, literals, variables, functions, scope, hoisting, operators, conditionals, switch statements, user input, loops, and developer tooling.
 
 ## Repository Structure
 
@@ -41,27 +41,69 @@ LearnPlaywriteBatch2x/
 │   ├── 25_Literal_All.js                     # Integer literals: decimal, hex, octal, exponential
 │   ├── 26_Literal_Number_all.js              # All number types: binary, float, BigInt, Infinity, NaN
 │   ├── 27_String.js                          # Single quotes vs double quotes
-│   ├── 28_Template_Literal.js                # Backticks, variable interpolation, multi-line strings
-│       └── 29_Backtick_single_double.js          # Comparison of '', "", and `` with examples
-    ├── chapter_06_Operator/                        # Operators in JavaScript
-    │   ├── 30_Operator.js                          # Assignment operators
-    │   ├── 31_Arithmetic_OP.js                     # Arithmetic: +, -, *, /
-    │   ├── 32_Modulus_OP.js                        # Modulus (%) and even/odd check
-    │   ├── 33_Expo_OP.js                           # Exponentiation (**)
-    │   ├── 34_IQ.js                                # Compound assignment operators
-    │   ├── 35_Comparsion_OP.js                     # Comparison: >, <, >=, <=
-    │   ├── 36_Comparsion_Strict_loose.js           # Loose (==) vs strict (===) equality
-    │   ├── 37_IQ_Loose_Strict.js                   # Loose equality edge cases and transitivity
-    │   ├── 38_Confusing_Comparsion.js              # Deep dive into confusing comparisons
-    │   ├── 39_Logical_Op.js                        # Logical AND, OR, NOT
-    │   ├── 40_String_Con_Op.js                     # String concatenation with +=
-    │   ├── 41_Ternary_Op.js                        # Ternary operator and nested ternaries
-    │   ├── 42_Type_Op.js                           # typeof operator
-    │   ├── 43_Incre_Decre_Op.js                    # Pre/post increment and decrement
-    │   ├── 44_Null_Op.js                           # Nullish coalescing (??)
-    │   ├── 45_Post_Increment.js                    # Post-increment behavior
-    │   ├── 46_IQ_INCREMENT_D.js                    # Increment operator interview question
-    │   └── 47_Advance_ID_.js                       # Advanced increment/decrement expressions
+│   └── 29_Backtick_single_double.js          # Comparison of '', "", and `` with examples
+├── chapter_06_Operator/                        # Operators in JavaScript
+│   ├── 30_Operator.js                          # Assignment operators
+│   ├── 31_Arithmetic_OP.js                     # Arithmetic: +, -, *, /
+│   ├── 32_Modulus_OP.js                        # Modulus (%) and even/odd check
+│   ├── 33_Expo_OP.js                           # Exponentiation (**)
+│   ├── 34_IQ.js                                # Compound assignment operators
+│   ├── 35_Comparsion_OP.js                     # Comparison: >, <, >=, <=
+│   ├── 36_Comparsion_Strict_loose.js           # Loose (==) vs strict (===) equality
+│   ├── 37_IQ_Loose_Strict.js                   # Loose equality edge cases and transitivity
+│   ├── 38_Confusing_Comparsion.js              # Deep dive into confusing comparisons
+│   ├── 39_Logical_Op.js                        # Logical AND, OR, NOT
+│   ├── 40_String_Con_Op.js                     # String concatenation with +=
+│   ├── 41_Ternary_Op.js                        # Ternary operator and nested ternaries
+│   ├── 42_Type_Op.js                           # typeof operator
+│   ├── 43_Incre_Decre_Op.js                    # Pre/post increment and decrement
+│   ├── 44_Null_Op.js                           # Nullish coalescing (??)
+│   ├── 45_Post_Increment.js                    # Post-increment behavior
+│   ├── 46_IQ_INCREMENT_D.js                    # Increment operator interview question
+│   └── 47_Advance_ID_.js                       # Advanced increment/decrement expressions
+├── Task_20May2026/                             # Practice Tasks
+│   ├── Odd_Even.js                             # Odd/even number check
+│   ├── Practise.js                             # Basic if-else practice (voting age)
+│   └── Student_Grade_Calculator.js             # Grade calculator with if-else-if
+├── chapter_07_If_else/                         # Conditional Statements
+│   ├── 48_IF_ESLE.js                           # Basic if-else example
+│   ├── 49_If_elseif_else.js                    # Grade calculator with if-else-if
+│   ├── 50_REAL_IF_ELSE.js                      # Nested if-else: login and role-based access
+│   ├── 51_API_IF_ELSE.js                       # API status code handling with if-else
+│   ├── 52_IQ_IF_ELSE.js                        # Truthy and falsy values in conditions
+│   ├── 53_IF_ELSE_real.js                      # Logical operators in if conditions
+│   ├── 54_IQ.js                                # Single-line if without braces
+│   ├── 55_IE.js                                # Single if statement allowed
+│   ├── 56_IQ_EVEN_ODD.js                       # Even/odd check with strict equality
+│   ├── 57_Grade_Calc.js                        # Grade calculator (clean version)
+│   └── 58_LEAP_YEAR.js                         # Leap year logic
+├── chapter_08_Switch_Statement/                # Switch Statements
+│   ├── 59_Switch.js                            # Basic switch with break
+│   ├── 60_No_Break.js                          # Fall-through behavior without break
+│   ├── 61_Default.js                           # Default case in switch
+│   ├── 62_REAL_TIME_EXAMPLE.js                 # API response code validation with switch
+│   ├── 63_Switch_Group.js                      # Grouped cases (browser engine check)
+│   ├── 64_IQ.js                                # Fall-through IQ question
+│   ├── 65_IQ2.js                               # Switch with boolean expressions (grade ranges)
+│   ├── 66_IQ3.js                               # Duplicate case behavior
+│   └── 67_IQ4.js                               # Strict equality in switch (0 vs false)
+├── chapter_09_UserInput/                       # User Input Methods
+│   ├── 68_User_Input.js                        # Browser prompt for user input
+│   ├── 69_Node_readline.js                     # Node.js readline module example
+│   └── 70_prompt_sync.js                       # prompt-sync package example
+├── chapter_10_Loops/                           # Loops in JavaScript
+│   ├── 71_For_loop.js                          # Repetitive console.log vs loop concept
+│   ├── 72_For_loop.js                          # Basic for loop syntax
+│   ├── 73_For_Loop2.js                         # For loop with different variables
+│   ├── 74_IQ.js                                # For loop edge cases and conditions
+│   ├── 75_For_OF_IN_EACH.js                    # while loop basics
+│   ├── 76_While.js                             # while loop examples
+│   ├── 77_Do_While.js                          # do-while vs while comparison
+│   ├── 78_Do_While.js                          # do-while retry example
+│   ├── 79_IQ.js                                # Countdown with while loop
+│   ├── 80_IQ.js                                # do-while with negative condition
+│   ├── 81_IQ.js                                # continue statement in for loop
+│   └── 82_IQ.js                                # do-while infinite loop edge case
 └── README.md
 ```
 
@@ -146,6 +188,69 @@ LearnPlaywriteBatch2x/
 | `46_IQ_INCREMENT_D.js` | Increment operator IQ question |
 | `47_Advance_ID_.js` | Advanced increment/decrement expressions |
 
+### Task_20May2026: Practice Tasks
+
+| File | Content |
+|------|---------|
+| `Odd_Even.js` | Odd/even number check using modulus |
+| `Practise.js` | Basic if-else practice with voting age |
+| `Student_Grade_Calculator.js` | Grade calculator with if-else-if ladder |
+
+### Chapter 07: If-Else Statements
+
+| File | Content |
+|------|---------|
+| `48_IF_ESLE.js` | Basic if-else: voting eligibility |
+| `49_If_elseif_else.js` | Grade calculator with if-else-if |
+| `50_REAL_IF_ELSE.js` | Nested if-else: login and role-based access control |
+| `51_API_IF_ELSE.js` | API status code handling with if-else |
+| `52_IQ_IF_ELSE.js` | Truthy and falsy values in conditions |
+| `53_IF_ELSE_real.js` | Logical operators (`&&`, `||`) in if conditions |
+| `54_IQ.js` | Single-line if without braces |
+| `55_IE.js` | Single if statement is allowed without else |
+| `56_IQ_EVEN_ODD.js` | Even/odd check with strict equality `===` |
+| `57_Grade_Calc.js` | Clean grade calculator (corrected version) |
+| `58_LEAP_YEAR.js` | Leap year logic with modulus operators |
+
+### Chapter 08: Switch Statements
+
+| File | Content |
+|------|---------|
+| `59_Switch.js` | Basic switch statement with `break` |
+| `60_No_Break.js` | Fall-through behavior when `break` is omitted |
+| `61_Default.js` | Default case handling in switch |
+| `62_REAL_TIME_EXAMPLE.js` | API response code validation with switch |
+| `63_Switch_Group.js` | Grouped cases (Chromium vs Mozilla vs Safari) |
+| `64_IQ.js` | Fall-through IQ question |
+| `65_IQ2.js` | Switch with boolean expressions (grade ranges) |
+| `66_IQ3.js` | Duplicate case behavior in switch |
+| `67_IQ4.js` | Strict equality in switch: `0` vs `false` |
+
+### Chapter 09: User Input
+
+| File | Content |
+|------|---------|
+| `68_User_Input.js` | Browser `prompt()` for user input |
+| `69_Node_readline.js` | Node.js `readline` module example |
+| `70_prompt_sync.js` | `prompt-sync` npm package example |
+
+### Chapter 10: Loops
+
+| File | Content |
+|------|---------|
+| `71_For_loop.js` | Repetitive `console.log` vs loop concept |
+| `72_For_loop.js` | Basic `for` loop syntax and execution |
+| `73_For_Loop2.js` | `for` loop with different variable names |
+| `74_IQ.js` | `for` loop edge cases and conditions |
+| `75_For_OF_IN_EACH.js` | `while` loop basics |
+| `76_While.js` | `while` loop examples |
+| `77_Do_While.js` | `do-while` vs `while` comparison |
+| `78_Do_While.js` | `do-while` retry example |
+| `79_IQ.js` | Countdown with `while` loop |
+| `80_IQ.js` | `do-while` with negative condition |
+| `81_IQ.js` | `continue` statement in `for` loop |
+| `82_IQ.js` | `do-while` edge case (infinite loop risk) |
+
 ## Naming Conventions Quick Reference
 
 | Convention | Example | Used For |
@@ -206,6 +311,20 @@ LearnPlaywriteBatch2x/
     node chapter_06_Operator/30_Operator.js
     node chapter_06_Operator/38_Confusing_Comparsion.js
     node chapter_06_Operator/41_Ternary_Op.js
+
+    # If-Else
+    node chapter_07_If_else/48_IF_ESLE.js
+    node chapter_07_If_else/50_REAL_IF_ELSE.js
+    node chapter_07_If_else/58_LEAP_YEAR.js
+
+    # Switch
+    node chapter_08_Switch_Statement/59_Switch.js
+    node chapter_08_Switch_Statement/62_REAL_TIME_EXAMPLE.js
+
+    # Loops
+    node chapter_10_Loops/72_For_loop.js
+    node chapter_10_Loops/76_While.js
+    node chapter_10_Loops/77_Do_While.js
    ```
 
 ## VS Code Shortcuts
