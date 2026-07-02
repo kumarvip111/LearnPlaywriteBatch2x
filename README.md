@@ -1,6 +1,6 @@
 # LearnPlaywrightBatch2x
 
-A beginner-friendly JavaScript learning repository covering core concepts, identifiers, literals, variables, functions, scope, hoisting, operators, conditionals, switch statements, user input, loops, and developer tooling.
+A beginner-friendly JavaScript learning repository covering core concepts, identifiers, literals, variables, scope, hoisting, operators, conditionals, switch statements, user input, loops, arrays, functions, and developer tooling.
 
 ## Repository Structure
 
@@ -104,6 +104,29 @@ LearnPlaywriteBatch2x/
 │   ├── 80_IQ.js                                # do-while with negative condition
 │   ├── 81_IQ.js                                # continue statement in for loop
 │   └── 82_IQ.js                                # do-while infinite loop edge case
+├── chapter_11_Arrays/                          # Arrays in JavaScript
+│   ├── 83_Arrays.js                            # Array basics: empty, literals, mixed types
+│   ├── 84_Arrays.js                            # Creating arrays: literal, constructor, Array.of, Array.from
+│   ├── 85_Access_Array.js                      # Accessing and modifying array elements
+│   ├── 86_Arrays_Adding_Remove.js              # push, pop, unshift, shift
+│   ├── 87_Adding_Remove2.js                    # splice: add, remove, replace
+│   ├── 88_REAL_Example.js                      # Real-world array manipulation with loops
+│   ├── 89_Searching.js                         # indexOf, lastIndexOf, includes, find, findIndex
+│   ├── 90_Iterate.js                           # for, for...of, forEach, for...in, entries
+│   ├── 91_Transform_Array.js                   # map, filter, reduce, flat
+│   ├── 92_Arrays.js                            # sort: default vs custom comparator
+│   ├── 93_Array_Slicing.js                     # slice and splice deep dive
+│   ├── 94_Concat_array.js                      # concat, spread, join
+│   └── 95_Array_Checking.js                    # Array.isArray, every, some
+├── chapter_12_Funtions/                        # Functions in JavaScript
+│   ├── 96_Functions.js                         # Function definition and calling
+│   ├── 97_Type1_Fn_Basic_Functions.js          # Type 1: no params, no return
+│   ├── 98_Type2_Fn_With_Param_No_Return.js     # Type 2: with params, no return
+│   ├── 99_Type3_Fn_without_Param_Return_Type.js # Type 3: no params, with return
+│   ├── 100_Type4_Fn_With_Param_With_Return.js  # Type 4: with params, with return
+│   ├── 101_Template_literal.js                 # Template literals in functions
+│   ├── 102_Fn_Expression.js                    # Function expressions
+│   └── 103_Arrow_Fn.js                         # Arrow functions (ES6)
 └── README.md
 ```
 
@@ -251,6 +274,37 @@ LearnPlaywriteBatch2x/
 | `81_IQ.js` | `continue` statement in `for` loop |
 | `82_IQ.js` | `do-while` edge case (infinite loop risk) |
 
+### Chapter 11: Arrays
+
+| File | Content |
+|------|---------|
+| `83_Arrays.js` | Array basics: empty arrays, literals, mixed types, test results |
+| `84_Arrays.js` | Creating arrays: literal, `new Array()`, `Array.of()`, `Array.from()` |
+| `85_Access_Array.js` | Accessing elements by index, `.at()`, modifying values, `.length` |
+| `86_Arrays_Adding_Remove.js` | `push`, `pop`, `unshift`, `shift` for adding/removing elements |
+| `87_Adding_Remove2.js` | `splice`: add, remove, and replace elements |
+| `88_REAL_Example.js` | Real-world array manipulation: browser list with loop and conditional removal |
+| `89_Searching.js` | `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast` |
+| `90_Iterate.js` | `for`, `for...of`, `forEach`, `for...in`, `.entries()` iteration |
+| `91_Transform_Array.js` | `map`, `filter`, `reduce`, `flat` transformations |
+| `92_Arrays.js` | `sort`: default lexicographic vs custom comparator (ascending/descending) |
+| `93_Array_Slicing.js` | `slice` (non-mutating) vs `splice` (mutating) |
+| `94_Concat_array.js` | `concat`, spread operator `...`, `join` |
+| `95_Array_Checking.js` | `Array.isArray`, `every`, `some` |
+
+### Chapter 12: Functions
+
+| File | Content |
+|------|---------|
+| `96_Functions.js` | Function definition and calling basics |
+| `97_Type1_Fn_Basic_Functions.js` | Type 1: no parameters, no return value |
+| `98_Type2_Fn_With_Param_No_Return.js` | Type 2: with parameters, no return value |
+| `99_Type3_Fn_without_Param_Return_Type.js` | Type 3: no parameters, with return value |
+| `100_Type4_Fn_With_Param_With_Return.js` | Type 4: with parameters, with return value |
+| `101_Template_literal.js` | Using template literals inside functions |
+| `102_Fn_Expression.js` | Function expressions vs function declarations |
+| `103_Arrow_Fn.js` | Arrow functions: syntax, single param, multiple params, block body |
+
 ## Naming Conventions Quick Reference
 
 | Convention | Example | Used For |
@@ -325,6 +379,15 @@ LearnPlaywriteBatch2x/
     node chapter_10_Loops/72_For_loop.js
     node chapter_10_Loops/76_While.js
     node chapter_10_Loops/77_Do_While.js
+
+    # Arrays
+    node chapter_11_Arrays/83_Arrays.js
+    node chapter_11_Arrays/86_Arrays_Adding_Remove.js
+    node chapter_11_Arrays/91_Transform_Array.js
+
+    # Functions
+    node chapter_12_Funtions/96_Functions.js
+    node chapter_12_Funtions/103_Arrow_Fn.js
    ```
 
 ## VS Code Shortcuts
